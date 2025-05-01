@@ -1,0 +1,124 @@
+body{
+    font-family: 'poppins',sans-serif;
+    line-height: 1.6;
+    color: #383737;
+    background-color: rgb(197, 231, 146);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow:  0 0 10px rgba( 0,0,0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header{
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1a5276;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+.intro{
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.about{
+    background-color: #eaf2f8;
+    padding: 20px;
+    border-radius: 8PX;
+    margin-bottom: 30PX;
+}
+.about h2{
+    color: #1a5276;
+    margin-top: 0;
+}
+.generator{
+    padding: 20px;
+}
+.generator h2{
+    color: #1a5276;
+    margin-top: 0;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+label{
+    display: bold;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+input[type="date"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+.gender-options{
+    margin: 15px 0;
+    display: flex;
+    gap: 20px;
+}
+.gender-options label{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.gender-radio{
+    margin-right: 8px;
+}
+
+.submit-btn{
+    background-color: #1a5276;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: #1a5276 0.3s;
+}
+.submit-btn:hover{
+    background-color: #154360;
+}
+.result-container{
+     display: none; /*starts hidden*/
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e8f8f5;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#akanName{
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a5276;
+    margin-bottom: 10px;
+}
+#birthDay{
+    font-size: 18px;
+    color: #555;
+}
+@media(maw-width:600px){
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
+    h1{
+        font-size: 1.8em;
+    }
+}

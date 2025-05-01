@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akan 3.0 project.</title>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Akan Name Genarator.</h1>
+            <p class="intro">Discover Your Ghanian Akan Name.</p>
+        </header>
+
+        <section class="about">
+            <h2>About Akan Names</h2>
+            <p>Akna names are derived from the day of the week a child is born. <br> Each day has corresponding names for boys and girls. <br>
+            Through this the Ghanian heritage is maintained. This culture dates from way past and it tends to unite the ghanian people due to this cultural practices.</p>
+            <p>Fill in your birth details below to discover your Akan name n be connected with the naming tradition.</p>
+        </section>
+        <section class="generator">
+            <form id="akanForm">
+                <div class="form-group">
+                    <label for="birthdate">Date of Birth</label>
+                    <input type="date" id="birthdate">
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <div class="gender-options">
+                        <label>
+                            <input type="radio" name="gender" value="male" required class="gender-radio"> 
+                            Male
+                        </label>
+                        <label>
+                            <input type="radio" name="gender" value="female" required class="gender-radio">
+                            Female
+                        </label>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn">Generate Name</button>
+            </form>
+            <div id="result" class="result-container">
+                <p id="akanName"></p>
+                <p id="birthDate"></p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
