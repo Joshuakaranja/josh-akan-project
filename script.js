@@ -1,21 +1,16 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('akanForm');
     
-    // Debug: Log all gender radios
     const genderRadios = document.querySelectorAll('.gender-radio');
     console.log('Found gender radios:', genderRadios.length);
-    
     form.addEventListener('submit', function(e) {
         e.preventDefault();
-        
-        // 1. Get birthdate (with validation)
         const birthdate = document.getElementById('birthdate').value;
         if (!birthdate) {
             alert("Please select your birth date!");
             return;
         }
-        
-        // 2. BULLETPROOF gender selection
+
         let selectedGender = null;
         genderRadios.forEach(radio => {
             if (radio.checked) {
