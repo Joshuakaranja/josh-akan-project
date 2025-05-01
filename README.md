@@ -6,20 +6,7 @@
 The Akan Name Generator helps users learn about Ghanaian culture and the significance behind Akan names. It guides users through the process of inputting their birth date and gender, then generates their Akan name based on this information. The site is fully responsive and quick, offering users a comfortable and seamless experience as they explore their traditional Akan name.
 
 ## Setup/Installation Requirements  
-To run the Akan Name Generator locally, follow these steps:
-
-1. Clone the repository:
-
-2. Navigate to the project directory:
-
-3. Run the project on a local server:
-- If you have **VS Code** installed, you can use the **Live Server** extension to quickly launch it.
-- Alternatively, if you're using **Python**, run the following command:
-  ```
-  python -m http.server
-  ```
-
-4. Open your browser and visit `http://localhost:8000` to view the app.
+just use the local link to my github.
 
 ## Known Bugs  
 No known bugs at the moment.
